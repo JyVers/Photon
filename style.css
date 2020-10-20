@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+*{margin: 0; padding: 0;}
+p, h1, h2, h3, h4, h5, h6, a, li{font-family: 'Source Sans Pro', sans-serif; text-decoration: none; list-style: none; color: inherit; font-weight: 300;}
+.paragraph{font-size: 17px;}
+.title{font-size: 34px;}
+.subtitle{font-size: 23px;}
+.btn{border: solid 1px #fff; border-radius: 5px; padding: 10px 35px; font-weight: normal;}
+.line{width: 100px; height: 1px; background-color: #90909080;}
+
+
+
+/* HEADER */
+
+i{
+    color: #fff;
+    font-size: 60px;
+}
+
+.header{
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #4fa49a, #4361c2);
+    color: #fff;
+}
+
+.logo{
+    margin-top: 140px;
+}
+
+.header__title{
+    font-size: 39px;
+    width: 500px;
+    margin: 35px auto 20px auto
+}
+
+.header__title span{
+    font-weight: 400;
+}
+
+.header__subtitle{
+    width: 500px;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 60px;
+    font-weight: 200;
+    color: #f1f1f1fb;
+}
+
+/* FIRST */
+
+.first{
+    display: flex;
+    padding: 80px 50px;
+}
+
+.first__title{
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.first__paragraph{
+    color: #666;
+    margin-top: 25px;
+}
+
+.first__img{
+    width: 490px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+/* SECOND */
+
+.second{
+    background-image: url(img/mountain.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.backgroundcolor{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+}
+
+.second__img{
+    background-color: lightblue;
+    border-radius: 100%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.second__line{
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.second__title{
+    margin: 25px;
+}
+
+.second__paragraph{
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+    width: 60%;
+    color: #f1f1f1fb;
+}
+
+/* THIRD */
+
+.third{
+    background-color: #fff;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.third__line{
+    margin: 0 auto;
+}
+
+.third__title{
+    color: #464646;
+    margin-bottom: 25px;
+}
+
+.third__paragraph{
+    color: #666;
+    margin-top: 25px;
+}
+
+.third__items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.third__item{
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.third__img{
+    width: 270px;
+    border-radius: 5px;
+}
+
+.third__subtitle{
+    color: #555;
+    margin-top: 20px;
+}
+
+.third__itemparagraph{
+    color: #666;
+    margin: 20px 30px 30px 30px;
+}
+
+.third__btn{
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #444;
+}
+
+/* FOUR */
+
+.four{
+    text-align: center;
+    color: #fff;
+    background-image: url(img/mountain.jpg);
+    background-position: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+.four__line{
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.four__title{
+    margin: 25px;
+    margin-top: 0;
+}
+
+.four__paragraph{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.four__btn{
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin: 5px;
+    letter-spacing: 1.7px;
+}
+
+.btn--white{
+    background-color: #fff;
+    color: #666;
+    
+}
+
+.four__backcolor{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 0;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+@media screen and (max-width: 1000px){
+    .first{display: block; text-align: center;}
+    .first__line{margin: 0 auto;}
+    .first__paragraph{margin-bottom: 25px;}
+    .first__img{width: 100%; margin: 0;}
+}
+
+@media screen and (max-width: 600px){
+    .header__title{font-size: 30px; width: 80%;}
+    .header__subtitle{width: 80%;}
+}
+
+@media screen and (max-width: 400px){
+    .four__btn{
+        display: block;
+        width: 60%;
+        margin: 10px auto;
+    }
+}
